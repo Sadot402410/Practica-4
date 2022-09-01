@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel = "stylesheet"  href="Estilos.css">
+  <title>Practica 4</title><br /><br />
+</head>
+
+<body>
+  <section>
+    <form  method="POST" action="sueldo.php">
+      <fieldset id="field-elements">
+        <h3>Calcular sueldo de empleado</h3> <br>
+        <label>Plan de Sueldo</label><br /><br />
+        <select  name="planPago">
+          <option>Semanal</option>
+          <option>Quincenal</option>
+          <option>Mensual</option>
+        </select><br /><br />
+        <label>Plan de retiro</label><br /><br />
+       <span> <select  name="Pret"></span>
+          <option>finiquito</option>
+          <option>liquidacion</option>
+        </select><br /><br />
+        <label>Sueldo</label><br /><br />
+        <input type="number" name="sueldoM" /><br /><br />
+        <label>Otras prestaciones</label><br /><br />
+        <input type="number" name="OPres"/><br/><br/>        
+        <label>Fecha de Entrada</label><br /><br />
+        <input type="date" name="fechaEnt"/><br/><br/>
+        <label>Fecha de Salida</label><br /><br />
+        <input type="date" name="fechaSal"/><br/><br/>
+        <label>Dias trabajados</label><br /><br />
+        <input type="number" name="diasT"/><br/><br/>
+        <input id="btnEnviar" type="submit" name="enviar" value="Calcular"/>
+      </fieldset>
+    </form>
+  </section>
+</body>
+
+</html>

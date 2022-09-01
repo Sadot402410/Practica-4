@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0px; 
+    margin: 10px;
+    text-align: center ;
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    margin: 0;
+    background-color: rgb(121, 160, 231);
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+#btnEnviar{
+     font-size: 1.5em;
+     font-weight: bold;
+     padding: 10px 20px;
+     border-radius: 10px;
+     border: 1px solid rgba(0, 0, 0, 0.5);
+     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+     color:white;
+     background-color: rgb(21, 38, 189);
+}
+
+#btnEnviar:hover{
+    background-color: rgb(136, 9, 209);
+    cursor: pointer;
+}
+
+    #field-elements{
+    width:625px;
+    height:50rem;
+    margin:5px 1px;
+    border-radius:10px 10px 10px 10px;
+    background:#EEE8AA;
+    box-shadow:0px 0px 0px 0px   #537c11;
+    color:#000000;
+    font-family:Tahoma;
+    font-size:14px;
+    padding-top:10px;
+    margin-left: 20rem;
+    }
+
+    #field-elements  > span {
+        size: 2rem;
+    }
+
